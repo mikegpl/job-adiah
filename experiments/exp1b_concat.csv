@@ -1,0 +1,33 @@
+dataset,Number of categories,name,r2,mape
+ShorterThan1.2Kms,∞ (continuous),mlp,0.85,22.0
+ShorterThan1.2Kms,10,mlp,0.85,22.0
+ShorterThan1.2Kms,4,mlp,0.84,23.0
+ShorterThan1.2Kms,7,mlp,0.84,22.0
+ShorterThan1.2Kms,8,mlp,0.84,23.0
+ShorterThan1.2Kms,9,mlp,0.84,23.0
+ShorterThan1.2Kms,5,mlp,0.83,23.0
+ShorterThan1.2Kms,6,mlp,0.82,24.0
+Between2KmsAnd25Kms,10,mlp,0.95,12.0
+Between2KmsAnd25Kms,7,mlp,0.94,13.0
+Between2KmsAnd25Kms,8,mlp,0.94,12.0
+Between2KmsAnd25Kms,9,mlp,0.94,12.0
+Between2KmsAnd25Kms,∞ (continuous),mlp,0.93,14.000000000000002
+Between2KmsAnd25Kms,6,mlp,0.93,13.0
+Between2KmsAnd25Kms,4,mlp,0.92,16.0
+Between2KmsAnd25Kms,5,mlp,0.92,16.0
+ExecutedMoreThan3Ktimes,∞ (continuous),mlp,0.99,45.0
+ExecutedMoreThan3Ktimes,7,mlp,0.97,41.0
+ExecutedMoreThan3Ktimes,8,mlp,0.97,42.0
+ExecutedMoreThan3Ktimes,9,mlp,0.97,35.0
+ExecutedMoreThan3Ktimes,10,mlp,0.97,39.0
+ExecutedMoreThan3Ktimes,4,mlp,0.96,60.0
+ExecutedMoreThan3Ktimes,5,mlp,0.96,48.0
+ExecutedMoreThan3Ktimes,6,mlp,0.96,52.0
+All,4,dtr,0.98,119.0
+All,6,dtr,0.98,91.0
+All,∞ (continuous),dtr,0.97,23.0
+All,7,dtr,0.97,139.0
+All,8,dtr,0.97,57.99999999999999
+All,10,dtr,0.96,140.0
+All,5,dtr,0.93,155.0
+All,9,mlp,0.91,728.0

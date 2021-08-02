@@ -1,0 +1,25 @@
+dataset,pipeline,name,r2,mape
+ShorterThan1.2Kms,Single step,MLP,0.68,0.37
+ShorterThan1.2Kms,Single step,KNN,0.67,0.36
+ShorterThan1.2Kms,Single step,DTR,0.6,0.51
+ShorterThan1.2Kms,Two steps,MLP,0.85,0.22
+ShorterThan1.2Kms,Two steps,KNN,0.82,0.23
+ShorterThan1.2Kms,Two steps,DTR,0.79,0.28
+Between2KmsAnd25Kms,Single step,KNN,0.77,0.24
+Between2KmsAnd25Kms,Single step,MLP,0.73,0.3
+Between2KmsAnd25Kms,Single step,DTR,0.69,0.32
+Between2KmsAnd25Kms,Two steps,MLP,0.95,0.12
+Between2KmsAnd25Kms,Two steps,KNN,0.93,0.13
+Between2KmsAnd25Kms,Two steps,DTR,0.89,0.15
+ExecutedMoreThan3Ktimes,Single step,KNN,0.96,0.4
+ExecutedMoreThan3Ktimes,Single step,MLP,0.95,0.97
+ExecutedMoreThan3Ktimes,Single step,DTR,0.94,1.47
+ExecutedMoreThan3Ktimes,Two steps,MLP,0.99,0.47
+ExecutedMoreThan3Ktimes,Two steps,KNN,0.98,0.22
+ExecutedMoreThan3Ktimes,Two steps,DTR,0.97,0.55
+All,Single step,DTR,0.97,0.4
+All,Single step,MLP,0.78,11.56
+All,Single step,KNN,0.56,1.16
+All,Two steps,DTR,0.99,0.45
+All,Two steps,KNN,0.93,0.43
+All,Two steps,MLP,0.92,3.04
